@@ -242,7 +242,7 @@ done
 
 %build
 export JAVA_HOME=%{_jvmdir}/java-rpmbuild
-export ANT_OPTS="-Xmx384m"
+export ANT_OPTS="-Xmx512m"
 # CLASSPATH needed for rebuilds from sources
 #rap#export OPT_JAR_LIST="ant/ant-junit junit ant/ant-nodeps"
 export CLASSPATH=$(build-classpath \
