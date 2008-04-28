@@ -96,6 +96,7 @@ BuildRequires:  saxon
 BuildRequires:  xalan-j2
 BuildRequires:  xerces-j2
 BuildRequires:  xml-commons-apis
+BuildRequires:  jdiff
 Requires:  jakarta-commons-beanutils
 Requires:  jakarta-commons-collections
 Requires:  jakarta-commons-digester
