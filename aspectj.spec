@@ -97,6 +97,7 @@ BuildRequires:  xalan-j2
 BuildRequires:  xerces-j2
 BuildRequires:  xml-commons-apis
 BuildRequires:  jdiff
+BuildRequires:  asm2
 Requires:  jakarta-commons-beanutils
 Requires:  jakarta-commons-collections
 Requires:  jakarta-commons-digester
