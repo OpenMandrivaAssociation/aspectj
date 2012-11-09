@@ -1,0 +1,15 @@
+sources:
+  "aspectj-1.5.3-build-bcel.xml:"	3bc13b05564bf1021e97fed033f0d671a9556523
+  "aspectj-1.5.3-script-aj:"	23be615e6cc5775a96c1d6722250b0f64043faf3
+  "aspectj-1.5.3-script-aj5:"	21f1de1b7937fbca40d64257b6f76ae82e8216d6
+  "aspectj-1.5.3-script-ajbrowser:"	776dad489fd3958f4aa683917e218ad1a25f1faa
+  "aspectj-1.5.3-script-ajc:"	22c5cc671c6d5fb013f794a5504bfe8b7eb0f08d
+  "aspectj-1.5.3-script-ajdoc:"	8e97b4f90ea5536c1291f0f6a301bc9d59d4eaca
+  "aspectj-1.5.3-src.tar.gz:"	cba7819e563c6fe1d20de70c6a080790fb3ad434
+  "aspectj-build-build.xml:"	9d6b4d9470482cf9b81c0c69b29abf71e055a223
+  "aspectj-jdtcore4aspectj-build.xml:"	15e75af1eccc7a2a85cb3137025f2789dae1d6a1
+  "aspectjlib-1.5.3.pom:"	8ac0e75ab125e85b9ff5f471fe62a228eec3189d
+  "aspectjrt-1.5.3.pom:"	a4dad01acc62827a1b1f68c803e31bd0b3ccc192
+  "aspectjtools-1.5.3.pom:"	a0607112e56eff78e391748adec84a09853d6693
+  "aspectjweaver-1.5.3.pom:"	c6435252b1e865f9c8928e7e467a9f1314cb579f
+  "bcel-5.1-src.zip:"	57382ebb3c01b3b97387772e1cdd08d12f574284

@@ -1,0 +1,11 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/runtime/model/PluginRegistryModel.java.sav4	2007-11-06 13:32:53.000000000 +0100
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/runtime/model/PluginRegistryModel.java	2007-11-06 13:33:18.000000000 +0100
+@@ -16,7 +16,7 @@
+ import org.eclipse.core.internal.model.PluginMap;
+ import org.eclipse.core.internal.model.RegistryResolver;
+ import org.eclipse.core.internal.plugins.InternalPlatform;
+-import org.eclipse.core.internal.runtime.Assert;
++import org.eclipse.core.internal.utils.Assert;
+ import org.eclipse.core.runtime.IStatus;
+ 
+ /**

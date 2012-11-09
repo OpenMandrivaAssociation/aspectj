@@ -1,0 +1,17 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/SaveManager.java.sav12	2005-05-11 17:29:08.000000000 +0200
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/SaveManager.java	2007-11-06 14:31:38.000000000 +0100
+@@ -16,7 +16,13 @@
+ import org.eclipse.core.internal.events.BuilderPersistentInfo;
+ import org.eclipse.core.internal.events.ResourceComparator;
+ import org.eclipse.core.internal.localstore.*;
+-import org.eclipse.core.internal.utils.*;
++//import org.eclipse.core.internal.utils.*;
++import org.eclipse.core.internal.utils.Assert;
++import org.eclipse.core.internal.utils.IStringPoolParticipant;
++import org.eclipse.core.internal.utils.Messages;
++import org.eclipse.core.internal.utils.Policy;
++import org.eclipse.core.internal.utils.StringPool;
++import org.eclipse.core.internal.utils.WrappedRuntimeException;
+ import org.eclipse.core.internal.watson.*;
+ import org.eclipse.core.resources.*;
+ import org.eclipse.core.runtime.*;

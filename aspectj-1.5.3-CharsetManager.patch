@@ -1,0 +1,14 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/CharsetManager.java.sav13	2005-05-09 15:29:26.000000000 +0200
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/CharsetManager.java	2007-11-06 14:45:02.000000000 +0100
+@@ -11,7 +11,10 @@
+ package org.eclipse.core.internal.resources;
+ 
+ import java.util.*;
+-import org.eclipse.core.internal.utils.*;
++//import org.eclipse.core.internal.utils.*;
++import org.eclipse.core.internal.utils.Assert;
++import org.eclipse.core.internal.utils.Messages;
++import org.eclipse.core.internal.utils.Policy;
+ import org.eclipse.core.resources.*;
+ import org.eclipse.core.runtime.*;
+ import org.eclipse.core.runtime.jobs.ISchedulingRule;

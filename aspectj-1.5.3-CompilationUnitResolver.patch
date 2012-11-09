@@ -1,0 +1,11 @@
+--- ./modules/org.eclipse.jdt.core/src/org/aspectj/org/eclipse/jdt/core/dom/CompilationUnitResolver.java.sav	2008-02-14 09:23:14.000000000 +0100
++++ ./modules/org.eclipse.jdt.core/src/org/aspectj/org/eclipse/jdt/core/dom/CompilationUnitResolver.java	2008-02-14 09:24:40.000000000 +0100
+@@ -740,8 +740,6 @@
+ 				astRequestor.acceptBinding(((BindingKeyResolver) this.requestedKeys.valueTable[j]).getKey(), binding);
+ 				worked(1);
+ 			}
+-		} catch (OperationCanceledException e) {
+-			throw e;
+ 		} catch (AbortCompilation e) {
+ 			this.handleInternalException(e, unit);
+ 		} catch (Error e) {

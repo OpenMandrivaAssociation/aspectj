@@ -1,0 +1,34 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/runtime/model/PluginModel.java.sav1	2007-11-06 12:59:14.000000000 +0100
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/runtime/model/PluginModel.java	2007-11-06 13:00:24.000000000 +0100
+@@ -10,7 +10,7 @@
+  *******************************************************************************/
+ package org.eclipse.core.runtime.model;
+ 
+-import org.eclipse.core.runtime.PluginVersionIdentifier;
++//import org.eclipse.core.runtime.PluginVersionIdentifier;
+ 
+ /**
+  * An object which represents the user-defined contents of a plug-in model
+@@ -290,7 +290,7 @@
+ 	 */
+ 	public void setVersion(String value) {
+ 		assertIsWriteable();
+-		version = new PluginVersionIdentifier(value).toString();
++//		version = new PluginVersionIdentifier(value).toString();
+ 	}
+ 
+ 	/**
+@@ -325,10 +325,10 @@
+ 	 */
+ 	public void setSchemaVersion(String value) {
+ 		assertIsWriteable();
+-		if (value == null)
++//		if (value == null)
+ 			schemaVersion = null;
+-		else
+-			schemaVersion = new PluginVersionIdentifier(value).toString();
++//		else
++//			schemaVersion = new PluginVersionIdentifier(value).toString();
+ 	}
+ 
+ }

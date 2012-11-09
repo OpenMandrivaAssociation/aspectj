@@ -1,0 +1,11 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/runtime/model/LibraryModel.java.sav6	2007-11-06 13:50:10.000000000 +0100
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/runtime/model/LibraryModel.java	2007-11-06 13:50:23.000000000 +0100
+@@ -10,7 +10,7 @@
+  *******************************************************************************/
+ package org.eclipse.core.runtime.model;
+ 
+-import org.eclipse.core.internal.runtime.Assert;
++import org.eclipse.core.internal.utils.Assert;
+ import org.eclipse.core.runtime.ILibrary;
+ 
+ /**

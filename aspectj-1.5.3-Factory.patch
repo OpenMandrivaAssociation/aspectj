@@ -1,0 +1,11 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/runtime/model/Factory.java.sav18	2007-11-06 15:39:30.000000000 +0100
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/runtime/model/Factory.java	2007-11-06 15:40:05.000000000 +0100
+@@ -140,7 +140,7 @@
+ 	 */
+ 	public void error(IStatus error) {
+ 		status.add(error);
+-		if (InternalPlatform.DEBUG && InternalPlatform.DEBUG_REGISTRY)
++		if (InternalPlatform.DEBUG)
+ 			System.out.println(error.toString());
+ 	}
+ 

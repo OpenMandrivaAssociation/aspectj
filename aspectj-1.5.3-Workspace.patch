@@ -1,0 +1,15 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/Workspace.java.sav14	2005-05-18 10:39:26.000000000 +0200
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/Workspace.java	2007-11-06 14:48:36.000000000 +0100
+@@ -19,7 +19,11 @@
+ import org.eclipse.core.internal.localstore.FileSystemResourceManager;
+ import org.eclipse.core.internal.properties.IPropertyManager;
+ import org.eclipse.core.internal.refresh.RefreshManager;
+-import org.eclipse.core.internal.utils.*;
++//import org.eclipse.core.internal.utils.*;
++import org.eclipse.core.internal.utils.Assert;
++import org.eclipse.core.internal.utils.Messages;
++import org.eclipse.core.internal.utils.Policy;
++import org.eclipse.core.internal.utils.StringPoolJob;
+ import org.eclipse.core.internal.watson.*;
+ import org.eclipse.core.resources.*;
+ import org.eclipse.core.resources.team.IMoveDeleteHook;

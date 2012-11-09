@@ -1,0 +1,23 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/ProjectPreferences.java.sav8	2005-05-19 15:39:00.000000000 +0200
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/ProjectPreferences.java	2007-11-06 14:11:52.000000000 +0100
+@@ -14,7 +14,10 @@
+ import java.util.*;
+ import org.eclipse.core.internal.preferences.EclipsePreferences;
+ import org.eclipse.core.internal.preferences.ExportedPreferences;
+-import org.eclipse.core.internal.utils.*;
++//import org.eclipse.core.internal.utils.*;
++import org.eclipse.core.internal.utils.Assert;
++import org.eclipse.core.internal.utils.Messages;
++import org.eclipse.core.internal.utils.Policy;
+ import org.eclipse.core.resources.*;
+ import org.eclipse.core.runtime.*;
+ import org.eclipse.core.runtime.jobs.ISchedulingRule;
+@@ -509,7 +512,7 @@
+ 			preferencesChanged(file.getProject());
+ 	}
+ 
+-	private synchronized void removeNode(String path) {
++	public synchronized void removeNode(String path) {
+ 		if (children != null) {
+ 			if (children.remove(path) != null)
+ 				makeDirty();

@@ -1,0 +1,11 @@
+--- modules/bcel-builder/build.xml.sav0	2007-11-06 10:08:25.000000000 +0100
++++ modules/bcel-builder/build.xml	2007-11-06 10:08:49.000000000 +0100
+@@ -166,7 +166,7 @@
+ 	  	
+ 	    <copy toDir="src-temp">
+ 	      <fileset dir="src"/>
+-	      <mapper type="regexp" from="^(.*)apache(.*)$" to="\1aspectj\\apache\2"/>
++	      <mapper type="regexp" from="^(.*)apache(.*)$" to="\1aspectj/apache\2"/>
+ 	    </copy>
+ 	  	
+ 	  	<delete dir="src"/>

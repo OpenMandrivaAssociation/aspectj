@@ -1,0 +1,15 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/Resource.java.sav9	2005-06-14 21:24:56.000000000 +0200
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/resources/Resource.java	2007-11-06 14:17:17.000000000 +0100
+@@ -16,7 +16,11 @@
+ import org.eclipse.core.internal.localstore.CoreFileSystemLibrary;
+ import org.eclipse.core.internal.localstore.FileSystemResourceManager;
+ import org.eclipse.core.internal.properties.IPropertyManager;
+-import org.eclipse.core.internal.utils.*;
++//import org.eclipse.core.internal.utils.*;
++import org.eclipse.core.internal.utils.Assert;
++import org.eclipse.core.internal.utils.Messages;
++import org.eclipse.core.internal.utils.Policy;
++import org.eclipse.core.internal.utils.WrappedRuntimeException;
+ import org.eclipse.core.internal.watson.*;
+ import org.eclipse.core.resources.*;
+ import org.eclipse.core.resources.team.IMoveDeleteHook;

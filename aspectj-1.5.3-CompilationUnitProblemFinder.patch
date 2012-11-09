@@ -1,0 +1,11 @@
+--- ./modules/org.eclipse.jdt.core/src/org/aspectj/org/eclipse/jdt/internal/core/CompilationUnitProblemFinder.java.sav	2008-02-14 09:23:24.000000000 +0100
++++ ./modules/org.eclipse.jdt.core/src/org/aspectj/org/eclipse/jdt/internal/core/CompilationUnitProblemFinder.java	2008-02-14 09:25:21.000000000 +0100
+@@ -185,8 +185,6 @@
+ 				System.out.println(Thread.currentThread() + " TIME SPENT in NameLoopkup#seekTypesInBinaryPackage: " + environment.nameLookup.timeSpentInSeekTypesInBinaryPackage + "ms");  //$NON-NLS-1$ //$NON-NLS-2$
+ 			}
+ 			return unit;
+-		} catch (OperationCanceledException e) {
+-			throw e;
+ 		} catch(RuntimeException e) { 
+ 			// avoid breaking other tools due to internal compiler failure (40334)
+ 			Util.log(e, "Exception occurred during problem detection: "); //$NON-NLS-1$ 

@@ -1,0 +1,15 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/localstore/HistoryStore2.java.sav16	2005-05-05 22:45:54.000000000 +0200
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/localstore/HistoryStore2.java	2007-11-06 15:23:02.000000000 +0100
+@@ -16,7 +16,11 @@
+ import org.eclipse.core.internal.localstore.Bucket.Entry;
+ import org.eclipse.core.internal.localstore.HistoryBucket.HistoryEntry;
+ import org.eclipse.core.internal.resources.*;
+-import org.eclipse.core.internal.utils.*;
++//import org.eclipse.core.internal.utils.*;
++import org.eclipse.core.internal.utils.Assert;
++import org.eclipse.core.internal.utils.Messages;
++import org.eclipse.core.internal.utils.Policy;
++import org.eclipse.core.internal.utils.UniversalUniqueIdentifier;
+ import org.eclipse.core.resources.*;
+ import org.eclipse.core.runtime.*;
+ 

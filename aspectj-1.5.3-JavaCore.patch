@@ -1,0 +1,10 @@
+--- modules/org.eclipse.jdt.core/src/org/aspectj/org/eclipse/jdt/core/JavaCore.java.sav17	2007-11-06 15:32:29.000000000 +0100
++++ modules/org.eclipse.jdt.core/src/org/aspectj/org/eclipse/jdt/core/JavaCore.java	2007-11-06 15:34:05.000000000 +0100
+@@ -60,6 +60,7 @@
+ import java.io.File;
+ import java.util.*;
+ 
++import org.eclipse.core.internal.utils.Assert;
+ import org.eclipse.core.resources.*;
+ import org.eclipse.core.runtime.*;
+ import org.eclipse.core.runtime.jobs.ISchedulingRule;

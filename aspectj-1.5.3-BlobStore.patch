@@ -1,0 +1,14 @@
+--- modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/localstore/BlobStore.java.sav15	2005-03-17 11:43:50.000000000 +0100
++++ modules/org.eclipse.jdt.core/src/org/eclipse/core/internal/localstore/BlobStore.java	2007-11-06 15:08:55.000000000 +0100
+@@ -14,7 +14,10 @@
+ import java.io.InputStream;
+ import java.util.*;
+ import org.eclipse.core.internal.resources.ResourceException;
+-import org.eclipse.core.internal.utils.*;
++//import org.eclipse.core.internal.utils.*;
++import org.eclipse.core.internal.utils.Assert;
++import org.eclipse.core.internal.utils.Messages;
++import org.eclipse.core.internal.utils.UniversalUniqueIdentifier;
+ import org.eclipse.core.resources.IResource;
+ import org.eclipse.core.resources.IResourceStatus;
+ import org.eclipse.core.runtime.*;
