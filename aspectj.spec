@@ -36,7 +36,7 @@ Version:        1.5.3
 Release:        %mkrel 2.0.1
 Epoch:          0
 License:        Eclipse Public License
-URL:            http://eclipse.org/aspectj/
+URL:            https://eclipse.org/aspectj/
 Group:          Development/Java
 Source0:        aspectj-1.5.3-src.tar.gz
 # cvs -d :pserver:anonymous@dev.eclipse.org:/cvsroot/tools/ login 
